@@ -1,0 +1,44 @@
+<?php
+
+namespace MicroweberPackages\LaravelModules\Filament\Resources\ModuleResource\Pages;
+
+use Filament\Actions;
+use Filament\Notifications\Notification;
+use Filament\Schemas\Components\Tabs\Tab;
+use Filament\Resources\Pages\ListRecords;
+use MicroweberPackages\LaravelModules\Filament\Resources\ModuleResource\ModuleResource;
+
+class ListModules extends ListRecords
+{
+    protected static string $resource = ModuleResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\Action::make('reload_modules')
+                ->icon('heroicon-o-arrow-path')
+                ->link()
+                ->color('secondary')
+                ->action(function () {
+                    mw_post_update();
+
+                    Notification::make()
+                        ->title('Modules have been reloaded')
+                        ->success()
+                        ->send();
+
+                })
+        ];
+    }
+
+
+    public function getTabs(): array
+    {
+        return [
+         //      null => Tab::make('All'),
+            'Installed' => Tab::make()->query(fn ($query) => $query->where('status', 1)),
+            'Not Installed' => Tab::make()->query(fn ($query) => $query->where('status', 0))
+        ];
+    }
+
+}
