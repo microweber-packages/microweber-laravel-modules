@@ -1,1 +1,1213 @@
 parameters:
+	ignoreErrors:
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\SystemModules\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\SystemModules\:\:\$status\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\ConnectionInterface\:\:getName\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 6
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to method getDescription\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to method getLowerName\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to method getName\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 8
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to method getRelativePath\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to method json\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Call to static method make\(\) on an unknown class Nwidart\\Modules\\Json\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Module not found\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesDatabaseActivator\:\:delete\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesDatabaseActivator\:\:disable\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesDatabaseActivator\:\:enable\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesDatabaseActivator\:\:hasStatus\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesDatabaseActivator\:\:setActive\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesDatabaseActivator\:\:\$app \(Illuminate\\Foundation\\Application\) does not accept Illuminate\\Container\\Container\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: src/Activators/LaravelModulesDatabaseActivator.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$config\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Call to method getName\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 6
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Module not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesFileActivator\:\:delete\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesFileActivator\:\:disable\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesFileActivator\:\:enable\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesFileActivator\:\:hasStatus\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Parameter \$module of method MicroweberPackages\\LaravelModules\\Activators\\LaravelModulesFileActivator\:\:setActive\(\) has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Activators/LaravelModulesFileActivator.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:\$components\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:\$migration_list\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:\$migrator\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:call\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:getModuleModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:option\(\)\.$#'
+			identifier: method.notFound
+			count: 4
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand\:\:__construct\(\) calls parent\:\:__construct\(\) but MicroweberPackages\\LaravelModules\\Commands\\Migrate\\ModuleMigrateCommand does not extend any class\.$#'
+			identifier: class.noParent
+			count: 1
+			path: src/Commands/Migrate/ModuleMigrateCommand.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:\$console\.$#'
+			identifier: property.notFound
+			count: 5
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:\$error\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:\$module\.$#'
+			identifier: property.notFound
+			count: 4
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:\$repository\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:getFilesystem\(\)\.$#'
+			identifier: method.notFound
+			count: 4
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:getModule\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Call to static method read\(\) on an unknown class Nwidart\\Modules\\Support\\Config\\GenerateConfigReader\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Commands/Publish/ModuleAssetPublisher.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModulePublishCommand\:\:\$components\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Commands/Publish/ModulePublishCommand.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModulePublishCommand\:\:\$laravel\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Commands/Publish/ModulePublishCommand.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher\:\:setRepository\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Commands/Publish/ModulePublishCommand.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModulePublishCommand\:\:getModuleModel\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Commands/Publish/ModulePublishCommand.php
+
+		-
+			message: '#^Class MicroweberPackages\\LaravelModules\\Commands\\Publish\\ModuleAssetPublisher does not have a constructor and must be instantiated without any parameters\.$#'
+			identifier: new.noConstructor
+			count: 1
+			path: src/Commands/Publish/ModulePublishCommand.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$dependency_module_name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Filament/Resources/ModuleDependencyResource.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Database\\Eloquent\\Model\:\:\$dependency_type\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Filament/Resources/ModuleDependencyResource.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\ModuleDependency\:\:\$is_optional\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Filament/Resources/ModuleDependencyResource.php
+
+		-
+			message: '#^Call to an undefined static method Illuminate\\Database\\Eloquent\\Model\:\:count\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/Filament/Resources/ModuleDependencyResource.php
+
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\LaravelModules\\Models\\ModuleDependency\:\:distinct\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/Filament/Resources/ModuleDependencyResource.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\SystemModulesSushi\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Filament/Resources/ModuleResource/ModuleResource.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Database\\Eloquent\\Model\:\:adminUrl\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/Filament/Resources/ModuleResource/ModuleResource.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Filament\\Resources\\ModuleResource\\ModuleResource\:\:getGlobalSearchEloquentQuery\(\) should return Illuminate\\Database\\Eloquent\\Builder\<MicroweberPackages\\LaravelModules\\Models\\SystemModulesSushi\> but returns Illuminate\\Database\\Eloquent\\Builder\<Illuminate\\Database\\Eloquent\\Model\>\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Filament/Resources/ModuleResource/ModuleResource.php
+
+		-
+			message: '#^Function mw_post_update not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Filament/Resources/ModuleResource/Pages/ListModules.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Helpers\\ModuleJsonFromArray\:\:decodeContents\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/Helpers/ModuleJsonFromArray.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Helpers\\ModuleJsonFromArray\:\:getPath\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Helpers/ModuleJsonFromArray.php
+
+		-
+			message: '#^Call to static method make\(\) on an unknown class Nwidart\\Modules\\Collection\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/Helpers/ModuleJsonFromArray.php
+
+		-
+			message: '#^Call to static method make\(\) on an unknown class Nwidart\\Modules\\Json\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Helpers/StaticModuleCreator.php
+
+		-
+			message: '#^Call to static method startMeasure\(\) on an unknown class Fruitcake\\LaravelDebugbar\\Facades\\Debugbar\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Helpers/StaticModuleCreator.php
+
+		-
+			message: '#^Call to static method stopMeasure\(\) on an unknown class Fruitcake\\LaravelDebugbar\\Facades\\Debugbar\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Helpers/StaticModuleCreator.php
+
+		-
+			message: '#^Constant DS not found\.$#'
+			identifier: constant.notFound
+			count: 10
+			path: src/Helpers/StaticModuleCreator.php
+
+		-
+			message: '#^Variable \$moduleJson in empty\(\) always exists and is not falsy\.$#'
+			identifier: empty.variable
+			count: 1
+			path: src/Helpers/StaticModuleCreator.php
+
+		-
+			message: '#^Access to constant DISABLED on an unknown class Nwidart\\Modules\\Constants\\ModuleEvent\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Access to constant DISABLING on an unknown class Nwidart\\Modules\\Constants\\ModuleEvent\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Access to property \$modules on an unknown class Laravel\\Lumen\\Application\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to an undefined method Illuminate\\Contracts\\Cache\\Repository\:\:flush\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModule\:\:fireEvent\(\)\.$#'
+			identifier: method.notFound
+			count: 4
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModule\:\:getPath\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModule\:\:getSnakeName\(\)\.$#'
+			identifier: method.notFound
+			count: 2
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to method disable\(\) on an unknown class Nwidart\\Modules\\Contracts\\ActivatorInterface\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to method enable\(\) on an unknown class Nwidart\\Modules\\Contracts\\ActivatorInterface\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class Nwidart\\Modules\\Json\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to method getCachedConfigPath\(\) on an unknown class Laravel\\Lumen\\Application\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to method getCachedServicesPath\(\) on an unknown class Laravel\\Lumen\\Application\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Call to method hasStatus\(\) on an unknown class Nwidart\\Modules\\Contracts\\ActivatorInterface\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Contracts\\ActivatorInterface not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Instantiated class Nwidart\\Modules\\Json not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\LaravelModule\:\:json\(\) has invalid return type Nwidart\\Modules\\Json\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\LaravelModule\:\:\$activator has unknown class Nwidart\\Modules\\Contracts\\ActivatorInterface as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\LaravelModule\:\:\$app \(Illuminate\\Contracts\\Foundation\\Application\|Laravel\\Lumen\\Application\) does not accept Illuminate\\Container\\Container\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\LaravelModule\:\:\$app has unknown class Laravel\\Lumen\\Application as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModule.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$config\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\LaravelModulesServiceProvider\:\:\$app\.$#'
+			identifier: property.notFound
+			count: 8
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModulesServiceProvider\:\:loadMigrationsFrom\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModulesServiceProvider\:\:registerNamespaces\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Call to method config\(\) on an unknown class Nwidart\\Modules\\Contracts\\RepositoryInterface\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method missingConfig\(\) on an unknown class Nwidart\\Modules\\Exceptions\\InvalidActivatorClass\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Call to static method setBasePath\(\) on an unknown class Nwidart\\Modules\\Support\\Stub\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Class Modules\\Settings\\Filament\\Pages\\Settings not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Contracts\\ActivatorInterface not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Contracts\\RepositoryInterface not found\.$#'
+			identifier: class.notFound
+			count: 3
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Providers\\BootstrapServiceProvider not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^PHPDoc tag @var for variable \$moduleRepository contains unknown class Nwidart\\Modules\\Contracts\\RepositoryInterface\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/LaravelModulesServiceProvider.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\ModuleDependency\:\:\$dependency_type\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Models/ModuleDependency.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\ModuleDependency\:\:\$is_optional\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Models/ModuleDependency.php
+
+		-
+			message: '#^Class MicroweberPackages\\LaravelModules\\Models\\Module not found\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/Models/ModuleDependency.php
+
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\LaravelModules\\Models\\SystemModules\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 2
+			path: src/Models/SystemModules.php
+
+		-
+			message: '#^PHPDoc type array of property MicroweberPackages\\LaravelModules\\Models\\SystemModules\:\:\$fillable is not covariant with PHPDoc type array\<int, string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: src/Models/SystemModules.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$modules\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Models/SystemModulesSushi.php
+
+		-
+			message: '#^Access to an undefined property MicroweberPackages\\LaravelModules\\Models\\SystemModulesSushi\:\:\$name\.$#'
+			identifier: property.notFound
+			count: 2
+			path: src/Models/SystemModulesSushi.php
+
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\LaravelModules\\Models\\SystemModulesSushi\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 1
+			path: src/Models/SystemModulesSushi.php
+
+		-
+			message: '#^Function module_admin_url not found\.$#'
+			identifier: function.notFound
+			count: 1
+			path: src/Models/SystemModulesSushi.php
+
+		-
+			message: '#^PHPDoc type array of property MicroweberPackages\\LaravelModules\\Models\\SystemModulesSushi\:\:\$fillable is not covariant with PHPDoc type array\<int, string\> of overridden property Illuminate\\Database\\Eloquent\\Model\:\:\$fillable\.$#'
+			identifier: property.phpDocType
+			count: 1
+			path: src/Models/SystemModulesSushi.php
+
+		-
+			message: '#^Function module_path not found\.$#'
+			identifier: function.notFound
+			count: 5
+			path: src/Providers/BaseModuleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\CheckLangCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\DisableCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\DumpCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\EnableCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\InstallCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\ListCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\ModelPruneCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\ModelShowCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\ModuleDeleteCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\UnUseCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\UpdateCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Actions\\UseCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\ComposerUpdateCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Database\\MigrateFreshCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Database\\MigrateRefreshCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Database\\MigrateResetCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Database\\MigrateRollbackCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Database\\MigrateStatusCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Database\\SeedCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\LaravelModulesV6Migrator not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ActionMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\CastMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ChannelMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ClassMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\CommandMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ComponentClassMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ComponentViewMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ControllerMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\EnumMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\EventMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\EventProviderMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ExceptionMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\FactoryMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\HelperMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\InterfaceMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\JobMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ListenerMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\MailMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\MiddlewareMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\MigrationMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ModelMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ModuleMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\NotificationMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ObserverMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\PolicyMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ProviderMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\RepositoryMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\RequestMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ResourceMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\RouteProviderMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\RuleMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ScopeMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\SeedMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ServiceMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\TestMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\TraitMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Make\\ViewMakeCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\ModuleClearCompiledCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\ModuleDiscoverCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Publish\\PublishConfigurationCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Publish\\PublishMigrationCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\Publish\\PublishTranslationCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\SetupCommand not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Class Nwidart\\Modules\\Commands\\UpdatePhpunitCoverage not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Providers/ModulesConsoleServiceProvider.php
+
+		-
+			message: '#^Access to an undefined property Illuminate\\Foundation\\Application\:\:\$config\.$#'
+			identifier: property.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModule\:\:boot\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\LaravelModule\:\:register\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:getPath\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to an undefined method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:getScanPaths\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class Nwidart\\Modules\\Laravel\\Module\.$#'
+			identifier: class.notFound
+			count: 6
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 6
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to method getPath\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to method isStatus\(\) on an unknown class Nwidart\\Modules\\Laravel\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to static method make\(\) on an unknown class Nwidart\\Modules\\Json\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to static method startMeasure\(\) on an unknown class Fruitcake\\LaravelDebugbar\\Facades\\Debugbar\.$#'
+			identifier: class.notFound
+			count: 4
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Call to static method stopMeasure\(\) on an unknown class Fruitcake\\LaravelDebugbar\\Facades\\Debugbar\.$#'
+			identifier: class.notFound
+			count: 4
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Caught class Nwidart\\Modules\\Exceptions\\ModuleNotFoundException not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Instantiated class Nwidart\\Modules\\Collection not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Instantiated class Nwidart\\Modules\\Exceptions\\ModuleNotFoundException not found\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Iterating over an object of an unknown class Nwidart\\Modules\\Collection\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:createModule\(\) has invalid return type Nwidart\\Modules\\Laravel\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:createModule\(\) invoked with 5 parameters, 3 required\.$#'
+			identifier: arguments.count
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:find\(\) has invalid return type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:find\(\) should return Nwidart\\Modules\\Module\|null but returns MicroweberPackages\\LaravelModules\\LaravelModule\.$#'
+			identifier: return.type
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:findOrFail\(\) has invalid return type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Method MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:toCollection\(\) has invalid return type Nwidart\\Modules\\Collection\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^PHPDoc tag @var for variable \$module contains unknown class Nwidart\\Modules\\Laravel\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Parameter \$a of anonymous function has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Parameter \$b of anonymous function has invalid type Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:\$app \(Illuminate\\Contracts\\Foundation\\Application\|Laravel\\Lumen\\Application\) does not accept Illuminate\\Container\\Container\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:\$app has unknown class Laravel\\Lumen\\Application as its type\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Property MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesFileRepository\:\:\$cacheRepository \(MicroweberPackages\\LaravelModules\\Repositories\\LaravelModulesCacheRepository\) does not accept MicroweberPackages\\LaravelModules\\Contracts\\LaravelModulesCacheRepositoryContract\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Throwing object of an unknown class Nwidart\\Modules\\Exceptions\\ModuleNotFoundException\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Repositories/LaravelModulesFileRepository.php
+
+		-
+			message: '#^Binary operation "\+" between string and 1 results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 4
+			path: src/Services/ModuleDependencyService.php
+
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\LaravelModules\\Models\\ModuleDependency\:\:create\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 2
+			path: src/Services/ModuleDependencyService.php
+
+		-
+			message: '#^Call to an undefined static method MicroweberPackages\\LaravelModules\\Models\\ModuleDependency\:\:where\(\)\.$#'
+			identifier: staticMethod.notFound
+			count: 5
+			path: src/Services/ModuleDependencyService.php
+
+		-
+			message: '#^Call to method get\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 7
+			path: src/Services/ModuleDependencyService.php
+
+		-
+			message: '#^Call to method isEnabled\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 2
+			path: src/Services/ModuleDependencyService.php
+
+		-
+			message: '#^Call to method json\(\) on an unknown class Nwidart\\Modules\\Module\.$#'
+			identifier: class.notFound
+			count: 1
+			path: src/Services/ModuleDependencyService.php
